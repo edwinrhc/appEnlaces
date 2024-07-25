@@ -1,0 +1,14 @@
+.header{
+  background-color: #a82121 !important;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.header .site-name h1 {
+  margin-left: 10px;
+}

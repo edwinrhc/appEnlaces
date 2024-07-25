@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mb-4" *ngFor="let card of cards">
+      <div class="card text-center h-100">
+        <div class="card-img-wrapper">
+          <img [src]="card.image" class="card-img-top custom-img mx-auto" alt="{{card.title}}">
+        </div>
+        <div class="card-body">
+          <p class="card-title">{{card.title}}</p>
+          <a [href]="card.url" target="_blank" class="btn btn-primary btn-sm">Enlace</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

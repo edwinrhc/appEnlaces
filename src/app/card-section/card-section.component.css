@@ -1,0 +1,26 @@
+.card-section {
+  gap: 1rem; /* Añade un espacio entre las tarjetas */
+}
+
+.custom-img {
+  width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto; /* Mantiene la proporción de la imagen */
+  object-fit: cover; /* Asegura que la imagen se recorte para llenar el contenedor */
+}
+
+.card-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px; /* Ajusta la altura según sea necesario */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Escala la tarjeta al pasar el mouse */
+  transition: transform 0.2s ease-in-out; /* Añade una transición suave */
+  background: linear-gradient(190deg, rgba(29, 167, 235, 0.2)  30%, rgba(116, 235, 213, 0.2) 70%);  /* Color de fondo al pasar el mouse */
+}
+
+.card {
+  transition: transform 0.2s ease-in-out; /* Asegura que la transición también se aplique cuando la tarjeta no esté en hover */
+}
