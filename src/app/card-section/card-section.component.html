@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-3 mb-4" *ngFor="let card of cards">
+    <div class="col-md-3 mb-4" *ngFor="let card of filteredCards">
       <div class="card text-center h-100">
         <div class="card-img-wrapper">
           <img [src]="card.image" class="card-img-top custom-img mx-auto" alt="{{card.title}}">
